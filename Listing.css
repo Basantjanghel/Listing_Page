@@ -1,0 +1,114 @@
+
+body{
+   background-color:#EFFAFB;
+}
+.cardcontainer{
+position: absolute;
+width: 1005px;
+height: 214px;
+left: 341px;
+top: 210.91px;
+background: #FAF5F5;
+border-radius: 15px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+
+}
+.left {
+    display:flex;
+}
+
+ .listimg {
+    position: absolute;
+    width: 158px;
+    height: 113.39px;
+    border-radius: 9px;
+    background-color:#C3CACA;
+    margin-top: 20px;
+    margin-left:25px;
+   margin-bottom:63.61px;
+   text-align: center;
+   display: flex;
+  justify-content: center;
+}
+ 
+
+.right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top:23px;
+}
+.list1{
+    margin-left: 55px;
+}
+.list2{
+    margin-left: 37px;;
+}
+.list3{
+    margin-left: 65px;;
+}
+.list3 p{
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 2px;
+text-align: center;
+color: #767676;
+}
+
+.icon_star{
+    color:#6EB8ED;
+    font-size: 1.5rem;
+    padding-bottom:7%;
+    
+}
+.icon_calendar{
+    font-size: 2rem;
+    padding-bottom:10%;
+}
+
+.list4{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.book-now-btn{
+width: 189px;
+height: 44px;
+background: #6EB8ED;
+border-radius: 25px 0px 0px 25px;
+}
+
+.price_txt{
+   padding-top: 30px;
+}
+ .list4 span{
+     font-size: 1.7rem;
+     color:green;
+ }
+
+/* Media Query */
+@media (max-width: 1200px) {
+    }
+
+
+@media (max-width: 1024px) {
+
+    }
+
+
+@media (max-width: 768px) {
+    .right img {
+        height: 150px;
+    }
+    .right .text p {
+        font-size: 12px;
+    }
+
+    }
+
+
+@media (max-width: 480px) {
+    
+}
